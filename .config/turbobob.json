@@ -7,6 +7,6 @@
 		"website": "https://github.com/cmatsuoka/asciiquarium"
 	},
 	"docker_images": [
-		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/asciiquarium" }
+		{ "image": "ghcr.io/r-xs-fi/asciiquarium", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
 	]
 }
