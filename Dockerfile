@@ -1,5 +1,4 @@
-# edge because `riscv64` only available in there
-FROM alpine:edge
+FROM alpine:latest
 
 CMD ["asciiquarium"]
 
